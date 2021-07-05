@@ -1,0 +1,82 @@
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+  
+li {
+    float: right;
+}
+  
+li a {
+    display: block;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+
+.googleLogo{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 258px;
+    margin-bottom: 25px;
+}
+
+.searchbar {
+    margin: 0 auto;
+    width: 600px;
+    border-radius: 35px;
+    border: 1px rgba(177, 165, 173, 0.404) solid;
+}
+
+input[type = text] {
+    width: 500px;
+    border: none;
+    outline: none;
+    height: 45px;
+    margin-left: 40px;
+}
+
+.searchbar:hover{
+    box-shadow: 1px 1px 8px 1px crimson;
+}
+
+.searchbar:focus-within {
+    box-shadow: 1px 1px 8px 1px crimson;
+}
+
+.buttons{
+    text-align: center;
+    padding-top: 30px;
+}
+
+input[type= submit] {
+    padding: 5px 10px;
+    background-color: whitesmoke;
+    outline: none;
+    border: none;
+}
+
+input[type = submit]:hover{
+    box-shadow: 1px 1px crimson;
+    border: 1px solid gray;
+}
+
+#GSearch{
+    margin-right: 10px;
+}
+
+#voice {
+    position: relative;
+    height: 20px;
+    top: 5px;
+    right: 10px;
+}
+
+.iconstyle {
+    position: relative;
+    top: 5px;
+    left: 10px;
+    color: rgba(143, 97, 120, 0.4)
+}
+
