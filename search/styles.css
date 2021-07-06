@@ -8,7 +8,7 @@ li {
 }
   
 li a {
-    display: block;
+    /* display: block; */
     text-align: center;
     padding: 10px 10px;
     text-decoration: none;
@@ -19,6 +19,13 @@ li a {
     text-align: center;
     margin: 0 auto;
     margin-top: 258px;
+    margin-bottom: 25px;
+}
+
+#image{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 150px;
     margin-bottom: 25px;
 }
 
@@ -34,7 +41,7 @@ input[type = text] {
     border: none;
     outline: none;
     height: 45px;
-    margin-left: 40px;
+    margin-left: 15px;
 }
 
 .searchbar:hover{
@@ -78,5 +85,14 @@ input[type = submit]:hover{
     top: 5px;
     left: 10px;
     color: rgba(143, 97, 120, 0.4)
+}
+
+
+#imageText{
+    color: blue;
+    width: fit-content;
+    position: relative;
+    right: 60px;
+    font: 'sans-serif'
 }
 
